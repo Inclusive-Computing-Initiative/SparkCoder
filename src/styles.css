@@ -8,6 +8,8 @@ body {
 
 p {
   font-family: "Merriweather Sans", sans-serif;
+  font-weight: 300;
+  color: black;
 }
 
 #nav {
@@ -27,23 +29,17 @@ p {
   font-family: "Merriweather Sans", sans-serif;
 }
 
-.title {
-<<<<<<< HEAD
-  font-family: "Poppins", sans-serif;
-  font-size: 90px;
-=======
-    position: relative;
-    background-color: transparent;
-    font-family: "Poppins", sans-serif;
-    font-size: 90px;
-    color: black;
-    font-weight: 700;
-    word-wrap: break-word;
-    z-index: 1000000;
->>>>>>> 2639a0a (homepage)
+#nav a.active{
+  border-bottom: solid 2px black;
 }
 
-.banner {
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 90px;
+}
+
+.page {
   padding: 10%;
   padding-top: 18%;
 }
@@ -54,27 +50,47 @@ p {
   font-size: 24px;
 }
 
-.getStarted {
-  border-radius: 5px;
-  font-family: "Poppins", sans-serif;
-  margin-top: 20px;
-  font-size: 54px;
+.heading {
+  font-size: 36px;
 }
 
-.start:hover {
-  background-color: aqua;
-}
-<<<<<<< HEAD
-=======
-
-.techniques-wrapper {
-    margin-top: 20vh;
-    padding-left: 10vw;
-}
-
-.tech-title {
-    
+.card {
+  padding: 10%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  min-height: 60%;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background-color: #f5fbff;
 }
 
+.table {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+}
 
->>>>>>> 2639a0a (homepage)
+.FAQ {
+  padding: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin: 5%;
+  text-align: center;
+  background-color: #f5fbff;
+}
+
+.carouselarrow {
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+  display: block;
+  position: absolute;
+  top: 38%;
+
+  /* width: 50px; */
+  height: 50px;
+
+  cursor: pointer;
+  border: none;
+}

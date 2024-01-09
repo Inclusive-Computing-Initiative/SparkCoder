@@ -1,11 +1,11 @@
 // import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
     <ul id="nav">
       <li>
-        <Link to="/" style={{ padding: "15px 25px 15px 100px" }}>
+        <NavLink to="/" style={{ padding: "15px 0px 15px 0", margin: "0 25px 0 100px" }} exact>
           <div style={{ display: "flex", alignItems: "center" }}>
             <img
               src="../../sparkcoder.png"
@@ -18,18 +18,18 @@ export default function NavBar() {
             />
             SparkCoder
           </div>
-        </Link>
+        </NavLink>
       </li>
       <li>
-        <Link to="/"> Courses </Link>
+        <NavLink to="/courses"> Courses </NavLink>
       </li>
       <li>
-        <Link to="/"> Contact </Link>
+        <NavLink to="/contact"> Contact </NavLink>
       </li>
       <li style={{ float: "right" }}>
-        <Link to="/" style={{ padding: "20px 100px 20px 25px" }}>
+        <NavLink to="/login" style={{ padding: "20px 100px 20px 25px" }}>
           Login
-        </Link>
+        </NavLink>
       </li>
     </ul>
   );
