@@ -1,4 +1,4 @@
-import "./Homestyles.css";
+import "../styles.css";
 import Carousel from "./Carousel";
 import { Button } from "@mui/material/";
 
