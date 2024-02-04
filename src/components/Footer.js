@@ -3,7 +3,7 @@ export default function Footer() {
     <div className="table"
         style={{
             width: "95%",
-            marginLeft: "2%",
+            margin: "0 0 1% 2%",
             borderTop: "black solid 1.5px",
             borderBottom: "black solid 1.5px"
         }}
