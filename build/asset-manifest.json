@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.946f536c.css",
-    "main.js": "/static/js/main.0c934e61.js",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.946f536c.css.map": "/static/css/main.946f536c.css.map",
-    "main.0c934e61.js.map": "/static/js/main.0c934e61.js.map"
+    "main.css": "/SparkCoder/static/css/main.d08d5441.css",
+    "main.js": "/SparkCoder/static/js/main.0c934e61.js",
+    "static/media/slick.svg": "/SparkCoder/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/SparkCoder/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/SparkCoder/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/SparkCoder/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/SparkCoder/index.html",
+    "main.d08d5441.css.map": "/SparkCoder/static/css/main.d08d5441.css.map",
+    "main.0c934e61.js.map": "/SparkCoder/static/js/main.0c934e61.js.map"
   },
   "entrypoints": [
-    "static/css/main.946f536c.css",
+    "static/css/main.d08d5441.css",
     "static/js/main.0c934e61.js"
   ]
 }
