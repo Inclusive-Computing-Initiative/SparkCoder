@@ -1,6 +1,8 @@
 import "../styles.css";
 import Carousel from "./Carousel";
 import { Button } from "@mui/material/";
+import spark from './sparkcoder.png'
+import quote from './quote.png'
 
 export default function HomePage() {
   function Card({ title, content }) {
@@ -67,7 +69,7 @@ export default function HomePage() {
       <>
       <div className="page">
         <img
-          src="../../sparkcoder.png"
+          src={spark}
           style={{
             width: "422px",
             position: "absolute",
@@ -123,7 +125,7 @@ export default function HomePage() {
             }}
           >
             <img
-              src="../../quote.png"
+              src={quote}
               style={{
                 width: "33vw",
                 opacity: "0.5",

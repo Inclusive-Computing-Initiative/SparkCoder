@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/SparkCoder/static/css/main.d08d5441.css",
-    "main.js": "/SparkCoder/static/js/main.0c934e61.js",
+    "main.js": "/SparkCoder/static/js/main.d91b98fa.js",
+    "static/media/instagramlogo.png": "/SparkCoder/static/media/instagramlogo.1a2a5d8efe9cb240f24e.png",
+    "static/media/quote.png": "/SparkCoder/static/media/quote.8c38922d319dcf127575.png",
+    "static/media/sparkcoder.png": "/SparkCoder/static/media/sparkcoder.d3cdfd543de0d1d50239.png",
+    "static/media/linkedinlogo.png": "/SparkCoder/static/media/linkedinlogo.73ca25087df5a0d8500e.png",
     "static/media/slick.svg": "/SparkCoder/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/SparkCoder/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/SparkCoder/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/SparkCoder/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/SparkCoder/index.html",
     "main.d08d5441.css.map": "/SparkCoder/static/css/main.d08d5441.css.map",
-    "main.0c934e61.js.map": "/SparkCoder/static/js/main.0c934e61.js.map"
+    "main.d91b98fa.js.map": "/SparkCoder/static/js/main.d91b98fa.js.map"
   },
   "entrypoints": [
     "static/css/main.d08d5441.css",
-    "static/js/main.0c934e61.js"
+    "static/js/main.d91b98fa.js"
   ]
 }

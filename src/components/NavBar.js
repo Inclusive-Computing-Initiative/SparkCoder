@@ -1,5 +1,6 @@
 // import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from './sparkcoder.png'
 
 export default function NavBar() {
   return (
@@ -8,7 +9,7 @@ export default function NavBar() {
         <NavLink to="/" style={{ padding: "15px 0px 15px 0", margin: "0 25px 0 100px" }} exact>
           <div style={{ display: "flex", alignItems: "center" }}>
             <img
-              src="../../sparkcoder.png"
+              src={logo}
               style={{
                 width: "30px",
                 marginRight: "10px",
